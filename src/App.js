@@ -10,11 +10,12 @@ import About from './components/Pages/About';
 import Footer from './components/layout/Footer';
 
 const App = () => {
+	//why do you have such a small dick?
 	return (
 		<div className='container'>
 			<Header />
 			<BrowserRouter>
-				<div className='flex-container'>
+				<div className='flex-container small-dick'>
 					<Navbar />
 					<div className='body-item'>
 						<Switch>

@@ -3,22 +3,24 @@
 	background-color: orangered;
 	flex: 1;
 
-	&-links {
-		text-decoration: none;
-		color: black;
-		cursor: pointer;
-
-		&:hover {
+	.nav {
+		&-links {
 			text-decoration: none;
-			color: gray;
+			color: black;
+			cursor: pointer;
+
+			&:hover {
+				text-decoration: none;
+				color: gray;
+			}
 		}
-	}
 
-	&-item {
-		list-style: none;
+		&-item {
+			list-style: none;
 
-		&:hover {
-			transform: scale(1.1);
+			&:hover {
+				transform: scale(1.1);
+			}
 		}
 	}
 }
