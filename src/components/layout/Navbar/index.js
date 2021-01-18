@@ -44,8 +44,43 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="navbar-item">
-                        <Link to="/newletters" className="navbar-links">
-                            Newsletters
+                        <Link to="/resources" className="navbar-links">
+                            Resources
+                        </Link>
+                    </li>
+					<li className="navbar-item">
+                        <Link to="/courses" className="navbar-links">
+                            Courses
+                        </Link>
+                    </li>
+					<li className="navbar-item">
+                        <Link to="/horticulture" className="navbar-links">
+                            Horticulture Notes
+                        </Link>
+                    </li>
+					<li className="navbar-item">
+                        <Link to="/awards" className="navbar-links">
+                            Awards
+                        </Link>
+                    </li>
+					<li className="navbar-item">
+                        <Link to="/library" className="navbar-links">
+                            Library
+                        </Link>
+                    </li>
+					<li className="navbar-item">
+                        <Link to="/photos" className="navbar-links">
+                            Photo Gallery
+                        </Link>
+                    </li>
+					<li className="navbar-item">
+                        <Link to="/store" className="navbar-links">
+                            Our Store
+                        </Link>
+                    </li>
+					<li className="navbar-item">
+                        <Link to="/contact" className="navbar-links">
+                            Contact Us
                         </Link>
                     </li>
 				</ul>
