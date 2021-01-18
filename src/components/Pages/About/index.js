@@ -10,7 +10,7 @@ const About = () => {
 				<div className='about-image img3'></div>
 			</div>
 			<div className='about-text'>
-				<h2>About Us</h2>
+				<h2 className='heading heading-primary'>About Us</h2>
 				<p>
 					The Norwood Evening Garden Club is a member of:
 					<ul>

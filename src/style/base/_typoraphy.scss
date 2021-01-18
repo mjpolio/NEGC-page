@@ -1,0 +1,28 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.6;
+}
+
+.heading {
+	font-family: 'Pacifico', cursive;
+	font-weight: lighter;
+	color: $heading-color;
+
+	&-primary {
+		font-size: 3rem;
+		line-height: 4rem;
+		margin-bottom: 1.6rem;
+	}
+
+	&-secondary {
+		font-size: 2rem;
+		line-height: 2.5rem;
+		margin-bottom: 1.6rem;
+	}
+}
+
+.paragraph {
+	font-size: 1.6rem;
+	margin-bottom: 1rem;
+}

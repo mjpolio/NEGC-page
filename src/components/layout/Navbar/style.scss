@@ -1,26 +1,26 @@
+@import '../../../style/abstracts/variables';
+
 .navbar {
-	width: 200px;
-	background-color: orangered;
+	background-color: $primary-color;
+	padding: 2rem 0;
 	flex: 1;
 
-	.nav {
-		&-links {
-			text-decoration: none;
-			color: black;
-			cursor: pointer;
-
-			&:hover {
-				text-decoration: none;
-				color: gray;
-			}
+	&-item {
+		list-style: none;
+		padding: 0.6rem 1.5rem;
+		&:hover {
+			transform: scale(1.1);
 		}
+	}
 
-		&-item {
-			list-style: none;
+	&-links {
+		text-decoration: none;
+		color: black;
+		cursor: pointer;
 
-			&:hover {
-				transform: scale(1.1);
-			}
+		&:hover {
+			text-decoration: none;
+			color: gray;
 		}
 	}
 }

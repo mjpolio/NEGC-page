@@ -4,8 +4,10 @@ import './style.scss';
 
 const Home = () => {
 	return (
-		<div className='body-section'>
-			<h2>Norwood Evening Gardening Club</h2>
+		<div className='home'>
+			<h2 className='heading heading-primary'>
+				Norwood Evening Gardening Club
+			</h2>
 			<p>
 				The Norwood Evening Garden Club brings together enthusiastic gardeners
 				from Norwood, Walpole, Westwood and surrounding towns for the goals of:
@@ -26,7 +28,13 @@ const Home = () => {
 				Tuesday of the month from September through May.
 			</p>
 			<p>
-				For further information, contact membership@norwoodeveninggardenclub.com
+				For further information, contact{' '}
+				<a
+					className='link'
+					href='mailto:email@address.com?subject=Gardening Club'
+				>
+					membership@norwoodeveninggardenclub.com
+				</a>
 			</p>
 		</div>
 	);

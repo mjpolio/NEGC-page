@@ -1,0 +1,13 @@
+.link {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.7rem;
+	color: $dark-color;
+	display: inline-block;
+	transition: all 0.3s ease-out;
+
+	&:hover {
+		color: $primary-color;
+		transform: translate(1rem, -0.3rem) scale(1.05);
+	}
+}

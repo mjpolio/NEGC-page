@@ -1,6 +1,8 @@
+@import '../../../style/abstracts/variables';
+
 .footer-container {
-	background-color: pink;
-	padding: 4rem 0 2rem 0;
+	background-color: $tertiary-color;
+	padding: 4rem 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
