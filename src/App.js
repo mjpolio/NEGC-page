@@ -8,6 +8,7 @@ import Navbar from './components/layout/Navbar';
 import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Footer from './components/layout/Footer';
+import Store from './components/Pages/Store';
 
 const App = () => {
 	//why do you have such a small dick?
@@ -21,6 +22,8 @@ const App = () => {
 						<Switch>
 							<Route path='/' exact component={Home} />
 							<Route path='/about' exact component={About} />
+							<Route path='/store' exact component={Store} />
+
 						</Switch>
 					</div>
 				</div>
