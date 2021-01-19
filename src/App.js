@@ -14,6 +14,8 @@ import About from './components/Pages/About';
 import Store from './components/Pages/Store';
 import Membership from './components/Pages/Membership';
 import Cookbooks from './components/Pages/Store/Cookbooks';
+import Horticulture from './components/Pages/Horticulture';
+
 
 const App = () => {
 	return (
@@ -29,6 +31,7 @@ const App = () => {
 							<Route path='/store' component={Store} />
 							<Route path='/membership' component={Membership} />
 							<Route path='/cookbooks' component={Cookbooks} />
+							<Route path='/horticulture' component={Horticulture} />
 
 						</Switch>
 					</div>
