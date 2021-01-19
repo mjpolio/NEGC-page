@@ -13,6 +13,8 @@ import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Store from './components/Pages/Store';
 import Membership from './components/Pages/Membership';
+import Executives from './components/Pages/Executives';
+import Calendar from './components/Pages/Calendar';
 import Cookbooks from './components/Pages/Store/Cookbooks';
 import Horticulture from './components/Pages/Horticulture';
 
@@ -27,10 +29,13 @@ const App = () => {
 					<div className='body-section'>
 						<Switch>
 							<Route path='/' exact component={Home} />
-							<Route path='/about' component={About} />
-							<Route path='/store' component={Store} />
-							<Route path='/membership' component={Membership} />
+							<Route path='/about' exact component={About} />
+							<Route path='/membership' exact component={Membership} />
+							<Route path='/executives' exact component={Executives} />
+							<Route path='/calendar' exact component={Calendar} />
+							<Route path='/store' exact component={Store} />
 							<Route path='/cookbooks' component={Cookbooks} />
+
 							<Route path='/horticulture' component={Horticulture} />
 
 						</Switch>
