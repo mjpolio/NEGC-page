@@ -13,6 +13,7 @@ import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Store from './components/Pages/Store';
 import Membership from './components/Pages/Membership';
+import Cookbooks from './components/Pages/Store/Cookbooks';
 
 const App = () => {
 	return (
@@ -24,9 +25,11 @@ const App = () => {
 					<div className='body-section'>
 						<Switch>
 							<Route path='/' exact component={Home} />
-							<Route path='/about' exact component={About} />
-							<Route path='/store' exact component={Store} />
-							<Route path='/membership' exact component={Membership} />
+							<Route path='/about' component={About} />
+							<Route path='/store' component={Store} />
+							<Route path='/membership' component={Membership} />
+							<Route path='/cookbooks' component={Cookbooks} />
+
 						</Switch>
 					</div>
 				</div>
