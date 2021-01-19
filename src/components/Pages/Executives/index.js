@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './style.scss';
+
 const Executives = () => {
 	return (
-		<>
+		<div className='executives'>
 			<h2 className='heading heading-primary'>Executives</h2>
 			<table>
 				<tbody>
@@ -48,7 +50,7 @@ const Executives = () => {
 					</tr>
 				</tbody>
 			</table>
-		</>
+		</div>
 	);
 };
 

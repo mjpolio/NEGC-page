@@ -17,7 +17,7 @@ import Executives from './components/Pages/Executives';
 import Calendar from './components/Pages/Calendar';
 import Cookbooks from './components/Pages/Store/Cookbooks';
 import Horticulture from './components/Pages/Horticulture';
-
+import Courses from './components/Pages/Courses';
 
 const App = () => {
 	return (
@@ -35,9 +35,8 @@ const App = () => {
 							<Route path='/calendar' exact component={Calendar} />
 							<Route path='/store' exact component={Store} />
 							<Route path='/cookbooks' component={Cookbooks} />
-
+							<Route path='/courses' component={Courses} />
 							<Route path='/horticulture' component={Horticulture} />
-
 						</Switch>
 					</div>
 				</div>

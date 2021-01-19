@@ -1,10 +1,13 @@
 .link {
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 1.7rem;
-	color: $dark-color;
-	display: inline-block;
-	transition: all 0.3s ease-out;
+	&:link,
+	&:visited {
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 1.7rem;
+		color: $dark-color;
+		display: inline-block;
+		transition: all 0.3s ease-out;
+	}
 
 	&:hover {
 		color: $primary-color;

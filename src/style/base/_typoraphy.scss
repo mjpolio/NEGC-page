@@ -32,11 +32,11 @@ p {
 }
 
 .secondary-text {
-	color: $secondary-color;
+	color: darken($secondary-color, 25%);
 }
 
 .tertiary-text {
-	color: $tertiary-color;
+	color: darken($tertiary-color, 30%);
 }
 
 .danger-text {
