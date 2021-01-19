@@ -8,17 +8,20 @@ const Home = () => {
 			<h2 className='heading heading-primary'>
 				Norwood Evening Gardening Club
 			</h2>
-			<p>
-				The Norwood Evening Garden Club brings together enthusiastic gardeners
-				from Norwood, Walpole, Westwood and surrounding towns for the goals of:
-				<ul>
+			<div>
+				<p>
+					The Norwood Evening Garden Club brings together enthusiastic gardeners
+					from Norwood, Walpole, Westwood and surrounding towns for the goals
+					of:
+				</p>
+				<ul className='mb-2'>
 					<li>Learning more about horticulture and floral design</li>
 					<li>
 						Sharing knowledge and expertise with each other and with the public
 					</li>
 					<li>Making our communities more beautiful through civic projects</li>
 				</ul>
-			</p>
+			</div>
 			<p>
 				The public is cordially invited to attend any of our meetings held at
 				the Carriage House at the First Baptist Church, 71 Bond Street in
@@ -31,7 +34,7 @@ const Home = () => {
 				For further information, contact{' '}
 				<a
 					className='link'
-					href='mailto:email@address.com?subject=Gardening Club'
+					href='mailto:membership@norwoodeveninggardenclub.com?subject=Gardening Club'
 				>
 					membership@norwoodeveninggardenclub.com
 				</a>

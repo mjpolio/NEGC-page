@@ -13,6 +13,8 @@ import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Store from './components/Pages/Store';
 import Membership from './components/Pages/Membership';
+import Executives from './components/Pages/Executives';
+import Calendar from './components/Pages/Calendar';
 
 const App = () => {
 	return (
@@ -27,6 +29,8 @@ const App = () => {
 							<Route path='/about' exact component={About} />
 							<Route path='/store' exact component={Store} />
 							<Route path='/membership' exact component={Membership} />
+							<Route path='/executives' exact component={Executives} />
+							<Route path='/calendar' exact component={Calendar} />
 						</Switch>
 					</div>
 				</div>

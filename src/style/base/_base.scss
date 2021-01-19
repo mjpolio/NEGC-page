@@ -15,7 +15,6 @@ body {
 	width: 80%;
 	margin: 1rem auto;
 	text-align: center;
-	background-color: $white-color;
 }
 
 .flex-container {
@@ -26,5 +25,6 @@ body {
 	flex: 5;
 	background-color: $plain-color;
 	padding: 3rem 1rem;
-	border: 2px solid #000;
+	border-top: 1px solid $primary-color;
+	border-bottom: 1px solid $primary-color;
 }

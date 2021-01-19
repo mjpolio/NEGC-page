@@ -5,14 +5,14 @@ import './style.scss';
 
 const Membership = () => {
 	return (
-		<div className='membership text-center'>
+		<div className='membership'>
 			<h2 className='heading heading-primary'>Membership</h2>
 			<p>
 				To receive information about becoming a member of the Norwood Evening
 				Garden Club please contact{' '}
 				<a
 					className='link'
-					href='mailto:email@address.com?subject=Gardening Club'
+					href='mailto:meheike59@gmail.com?subject=Gardening Club'
 				>
 					Membership Chair
 				</a>

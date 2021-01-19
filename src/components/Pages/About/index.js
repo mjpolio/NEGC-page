@@ -11,16 +11,15 @@ const About = () => {
 			</div>
 			<div className='about-text'>
 				<h2 className='heading heading-primary'>About Us</h2>
-				<p>
-					The Norwood Evening Garden Club is a member of:
-					<ul>
-						<li className='member-list'>
-							The Garden Club Federation of Massachusetts, Inc.
-						</li>
-						<li className='member-list'>New England Region of Garden Clubs</li>
-						<li className='member-list'>National Garden Clubs, Inc.</li>
-					</ul>
-				</p>
+				<p>The Norwood Evening Garden Club is a member of:</p>
+				<ul className='mb-2'>
+					<li className='member-list'>
+						The Garden Club Federation of Massachusetts, Inc.
+					</li>
+					<li className='member-list'>New England Region of Garden Clubs</li>
+					<li className='member-list'>National Garden Clubs, Inc.</li>
+				</ul>
+
 				<p>
 					Members of the Norwood Evening Garden Club have been providing
 					education and public beautification in Norwood and its surrounding
