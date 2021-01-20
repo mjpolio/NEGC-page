@@ -8,6 +8,8 @@ const Courses = () => {
 		<>
 			<h2 className='heading heading-primary'>
 				Gardening and Horticultural Courses
+				<div className="underline"></div>
+
 			</h2>
 			<div className='courses'>
 				<div className='courses-item'>

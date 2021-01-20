@@ -5,7 +5,10 @@ import './style.scss';
 const Executives = () => {
 	return (
 		<div className='executives'>
-			<h2 className='heading heading-primary'>Executives</h2>
+			<h2 className='heading heading-primary'>
+				Executives
+				<div className="underline"></div>
+			</h2>
 			<table>
 				<tbody>
 					<tr>

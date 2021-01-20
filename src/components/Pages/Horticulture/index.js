@@ -12,7 +12,7 @@ const Horticulture = () => {
         <div>
             <div className="heading heading-primary">
                 Horticulture Notes
-                {/* <div className="horticulture-img"></div> */}
+				<div className="underline"></div>
             </div>
             <div className="horticulture-notes">
                 <ul>

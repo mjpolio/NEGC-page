@@ -7,6 +7,7 @@ const Home = () => {
 		<div className='home'>
 			<h2 className='heading heading-primary'>
 				Norwood Evening Gardening Club
+				<div className="underline"></div>
 			</h2>
 			<div>
 				<p>

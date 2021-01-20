@@ -1,3 +1,5 @@
+@import '../../../style/abstracts/variables';
+
 .store {
     &-list {
         margin-top: 5rem;
@@ -7,9 +9,32 @@
        list-style: none; 
        font-size: 2rem;
        font-weight: 500;
+       padding: .8rem;
+       color: $dark-color-green;
+       text-transform: uppercase;
     }
 
     &-icon {
         margin-right: 1rem;
      }
+
+     &-link {
+        &:link, 
+        &:visited {
+            color: $dark-color-green;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all .3s;
+        }
+    
+        &:hover,
+        &:active {
+            color: $medium-color-green;
+            // box-shadow: 0 .5rem 3rem rgba(0,0,0, .15);
+            transform:  scale(1.05);
+            
+        }
+    }
 }
+

@@ -10,10 +10,12 @@ const Store = () => {
 		<div className='store'>
 			<h2 className='heading heading-primary'>
 				Our Store
+				<div className="underline"></div>
+
 			</h2>
 			<div className="store-list">
 				<li className="store-item">
-					<Link to="/cookbooks">
+					<Link to="/cookbooks" className="store-link">
 					<FaBook className="store-icon" />
 					Cookbooks
 					</Link>

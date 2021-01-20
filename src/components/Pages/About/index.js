@@ -10,7 +10,10 @@ const About = () => {
 				<div className='about-image img3'></div>
 			</div>
 			<div className='about-text'>
-				<h2 className='heading heading-primary'>About Us</h2>
+				<h2 className='heading heading-primary'>
+					About Us
+					<div className="underline"></div>
+				</h2>
 				<p>The Norwood Evening Garden Club is a member of:</p>
 				<ul className='mb-2'>
 					<li className='member-list'>

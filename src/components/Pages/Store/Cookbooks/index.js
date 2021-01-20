@@ -6,6 +6,8 @@ const Cookbooks = () => {
         <div>
             <h2 className='heading heading-primary'>
 				Cookbooks
+				<div className="underline"></div>
+
 			</h2>
             <div className="cookbook-item">
                 <div className="cookbook-item-title">NEGC Award-Winning Cookbook</div>

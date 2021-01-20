@@ -5,7 +5,11 @@ import './style.scss';
 const Calendar = () => {
 	return (
 		<div className='calendar'>
-			<h2 className='heading heading-primary'>Monthly Program Calendar</h2>
+			<h2 className='heading heading-primary'>
+				Monthly Program Calendar
+				<div className="underline"></div>
+
+			</h2>
 			<p className='my-2'>
 				Guests are welcome at all meetings except those noted as ' Members Only
 				' meetings. Guests may register at the door. The guest donation is $5.00

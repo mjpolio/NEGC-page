@@ -6,7 +6,10 @@ import './style.scss';
 const Membership = () => {
 	return (
 		<div className='membership'>
-			<h2 className='heading heading-primary'>Membership</h2>
+			<h2 className='heading heading-primary'>
+				Membership
+				<div className="underline"></div>
+			</h2>
 			<p>
 				To receive information about becoming a member of the Norwood Evening
 				Garden Club please contact{' '}
