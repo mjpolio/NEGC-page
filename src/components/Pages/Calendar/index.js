@@ -7,8 +7,7 @@ const Calendar = () => {
 		<div className='calendar'>
 			<h2 className='heading heading-primary'>
 				Monthly Program Calendar
-				<div className="underline"></div>
-
+				<div className='underline'></div>
 			</h2>
 			<p className='my-2'>
 				Guests are welcome at all meetings except those noted as ' Members Only
@@ -22,7 +21,7 @@ const Calendar = () => {
 			<p className='danger-text mt-3'>
 				Please Note: Due to COVID all programs are 'Members Only'.
 			</p>
-			<table>
+			<table className='calendar-table'>
 				<thead>
 					<tr>
 						<th>Date</th>

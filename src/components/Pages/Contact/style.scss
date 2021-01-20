@@ -1,0 +1,11 @@
+.contact {
+	.link {
+		display: block;
+		padding: 1.5rem 0;
+		font-size: 1.5rem;
+
+		&:hover {
+			transform: translate(0, -0.3rem) scale(1.05);
+		}
+	}
+}
