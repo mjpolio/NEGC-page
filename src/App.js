@@ -41,11 +41,11 @@ const App = () => {
 					<div className='body-section'>
 						<Switch>
 							<Route path='/' exact component={Home} />
-							<Route path='/about' exact component={About} />
-							<Route path='/membership' exact component={Membership} />
-							<Route path='/executives' exact component={Executives} />
-							<Route path='/calendar' exact component={Calendar} />
-							<Route path='/store' exact component={Store} />
+							<Route path='/about' component={About} />
+							<Route path='/membership' component={Membership} />
+							<Route path='/executives' component={Executives} />
+							<Route path='/calendar' component={Calendar} />
+							<Route path='/store' component={Store} />
 							<Route path='/cookbooks' component={Cookbooks} />
 							<Route path='/courses' component={Courses} />
 							<Route path='/horticulture' component={Horticulture} />
