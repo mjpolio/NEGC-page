@@ -9,14 +9,14 @@ const Contact = () => {
 				<div className='underline'></div>
 			</h2>
 
-			<h3 className='heading heading-secondary secondary-text my-5'>
+			<h3 className='heading heading-tertiary text-secondary my-5'>
 				Meetings are held at the Carriage House <br /> at <br /> the First
 				Baptist Church, 71 Bond Street in Norwood
 			</h3>
-			<p className='primary-text'>
+			<p className='text-primary'>
 				Norwood Evening Garden Club <br /> P.O. Box 882 <br /> Norwood, MA 02062
 			</p>
-			<h3 className='heading heading-secondary heading-underline pt-5'>
+			<h3 className='heading heading-tertiary heading-underline pt-5'>
 				Email us at
 			</h3>
 			<a

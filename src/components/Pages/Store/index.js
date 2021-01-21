@@ -4,32 +4,29 @@ import { Link } from 'react-router-dom';
 import { GiLargeDress, GiGloves } from 'react-icons/gi';
 import { FaBook } from 'react-icons/fa';
 
-
 const Store = () => {
 	return (
 		<div className='store'>
 			<h2 className='heading heading-primary'>
 				Our Store
-				<div className="underline"></div>
-
+				<div className='underline'></div>
 			</h2>
-			<div className="store-list">
-				<li className="store-item">
-					<Link to="/cookbooks" className="store-link">
-					<FaBook className="store-icon" />
-					Cookbooks
+			<div className='store-list'>
+				<li className='store-item'>
+					<Link to='/cookbooks' className='link'>
+						<FaBook className='store-icon' />
+						Cookbooks
 					</Link>
 				</li>
-				<li className="store-item" >
-					<GiLargeDress className="store-icon" />
+				<li className='store-item'>
+					<GiLargeDress className='store-icon' />
 					Aprons
 				</li>
-				<li className="store-item">
-					<GiGloves className="store-icon" />
+				<li className='store-item'>
+					<GiGloves className='store-icon' />
 					Gloves
 				</li>
 			</div>
-			
 		</div>
 	);
 };

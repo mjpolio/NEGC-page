@@ -54,7 +54,7 @@ const Home = () => {
 				<div className='home-pledge-outer octagon'>
 					<div className='home-pledge-inner octagon'>
 						<div className='home-pledge-text'>
-							<h3 className='heading heading-secondary secondary-text'>
+							<h3 className='heading heading-secondary text-secondary'>
 								Conservation Pledge
 							</h3>
 							<p>

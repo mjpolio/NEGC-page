@@ -7,7 +7,7 @@ function Footer() {
 	const date = new Date();
 	return (
 		<div className='footer-container'>
-			<p className='heading heading-secondary'>
+			<p className='heading heading-tertiary'>
 				&copy; Norwood Evening Garden Club {date.getFullYear()}
 			</p>
 			<a
@@ -24,7 +24,7 @@ function Footer() {
 				>
 					<FaFacebook className='footer-social-icon' />
 				</a>
-				<p className='heading secondary-text'>Like us on</p>
+				<p className='heading text-secondary'>Like us on</p>
 			</div>
 		</div>
 	);

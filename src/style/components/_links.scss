@@ -13,4 +13,9 @@
 		color: $primary-color;
 		transform: translate(0, -0.1rem) scale(1.05);
 	}
+
+	&:active,
+	&:focus {
+		outline: none;
+	}
 }

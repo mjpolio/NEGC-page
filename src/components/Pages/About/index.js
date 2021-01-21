@@ -16,7 +16,9 @@ const About = () => {
 					About Us
 					<div className='underline'></div>
 				</h2>
-				<p>The Norwood Evening Garden Club is a member of:</p>
+				<p className='text-left'>
+					The Norwood Evening Garden Club is a member of:
+				</p>
 				<ul className='list'>
 					<li>
 						<GiSpotedFlower className='list-icon' />

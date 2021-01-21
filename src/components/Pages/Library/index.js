@@ -7,7 +7,7 @@ const Library = () => {
 				Library
 				<div className='underline'></div>
 			</h2>
-			<h3 className='heading heading-secondary secondary-text'>
+			<h3 className='heading heading-tertiary text-secondary'>
 				Please contact the Librarian at the meeting to borrow books from the
 				Library.
 			</h3>

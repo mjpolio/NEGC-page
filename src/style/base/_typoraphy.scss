@@ -16,6 +16,12 @@ body {
 	}
 
 	&-secondary {
+		font-size: 2.3rem;
+		line-height: 3rem;
+		margin-bottom: 1.6rem;
+	}
+
+	&-tertiary {
 		font-size: 2rem;
 		line-height: 2.5rem;
 		margin-bottom: 1.6rem;
@@ -23,8 +29,8 @@ body {
 
 	&-underline {
 		border-bottom: 2px solid darken($tertiary-color, 20%);
-		width: 10rem;
-		margin: 3rem auto 2rem auto;
+		display: table;
+		margin: 3rem auto 1.5rem auto;
 	}
 }
 
@@ -33,25 +39,39 @@ p {
 	margin-bottom: 1rem;
 }
 
-.primary-text {
-	color: $primary-color;
-}
+.text {
+	&-primary {
+		color: $primary-color;
+	}
 
-.secondary-text {
-	color: darken($secondary-color, 25%);
-}
+	&-secondary {
+		color: darken($secondary-color, 25%);
+	}
 
-.tertiary-text {
-	color: darken($tertiary-color, 30%);
-}
+	&-tertiary {
+		color: darken($tertiary-color, 30%);
+	}
 
-.dark-text {
-	color: $dark-color;
-}
+	&-dark {
+		color: $dark-color;
+	}
 
-.danger-text {
-	color: $danger-color;
-	font-weight: bold;
+	&-danger {
+		color: $danger-color;
+		font-weight: bold;
+	}
+
+	&-right {
+		text-align: end;
+	}
+
+	&-left {
+		text-align: start;
+	}
+
+	&-center {
+		text-align: center;
+	}
 }
 
 .underline {

@@ -1,40 +1,33 @@
 @import '../../../style/abstracts/variables';
 
 .store {
-    &-list {
-        margin-top: 5rem;
-    }
+	&-list {
+		margin-top: 5rem;
+	}
 
-    &-item {
-       list-style: none; 
-       font-size: 2rem;
-       font-weight: 500;
-       padding: .8rem;
-       color: $dark-color-green;
-       text-transform: uppercase;
-    }
+	&-item {
+		list-style: none;
+		font-size: 2rem;
+		font-weight: 500;
+		padding: 0.8rem;
+		color: darken($secondary-color, 30%);
+	}
 
-    &-icon {
-        margin-right: 1rem;
-     }
+	&-icon {
+		margin-right: 1rem;
+		margin-bottom: -0.2rem;
+	}
 
-     &-link {
-        &:link, 
-        &:visited {
-            color: $dark-color-green;
-            text-decoration: none;
-            text-transform: uppercase;
-            display: inline-block;
-            transition: all .3s;
-        }
-    
-        &:hover,
-        &:active {
-            color: $medium-color-green;
-            // box-shadow: 0 .5rem 3rem rgba(0,0,0, .15);
-            transform:  scale(1.05);
-            
-        }
-    }
+	.link {
+		&:link,
+		&:visited {
+			font-size: inherit;
+			color: darken($secondary-color, 30%);
+		}
+
+		&:hover,
+		&:active {
+			color: darken($secondary-color, 10%);
+		}
+	}
 }
-
