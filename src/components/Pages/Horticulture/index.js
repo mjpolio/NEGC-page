@@ -19,51 +19,31 @@ const Horticulture = () => {
 			<div className='horticulture-notes'>
 				<ul>
 					<li className='horticulture-item'>
-						<Link
-							to={{ pathname: Pdf05 }}
-							target='_blank'
-							className='horticulture-link'
-						>
+						<Link to={{ pathname: Pdf05 }} target='_blank' className='btn-text'>
 							<SiLeaflet className='horticulture-icon' />
 							Leaf Dropping and Leaf Hanging in Japanese Maple
 						</Link>
 					</li>
 					<li className='horticulture-item'>
-						<Link
-							to={{ pathname: Pdf04 }}
-							target='_blank'
-							className='horticulture-link'
-						>
+						<Link to={{ pathname: Pdf04 }} target='_blank' className='btn-text'>
 							<SiLeaflet className='horticulture-icon' />
 							Oriental Bittersweet
 						</Link>
 					</li>
 					<li className='horticulture-item'>
-						<Link
-							to={{ pathname: Pdf03 }}
-							target='_blank'
-							className='horticulture-link'
-						>
+						<Link to={{ pathname: Pdf03 }} target='_blank' className='btn-text'>
 							<SiLeaflet className='horticulture-icon' />
 							Choosing Native Plants
 						</Link>
 					</li>
 					<li className='horticulture-item'>
-						<Link
-							to={{ pathname: Pdf02 }}
-							target='_blank'
-							className='horticulture-link'
-						>
+						<Link to={{ pathname: Pdf02 }} target='_blank' className='btn-text'>
 							<SiLeaflet className='horticulture-icon' />
 							Tips on Garden Tool Care
 						</Link>
 					</li>
 					<li className='horticulture-item'>
-						<Link
-							to={{ pathname: Pdf01 }}
-							target='_blank'
-							className='horticulture-link'
-						>
+						<Link to={{ pathname: Pdf01 }} target='_blank' className='btn-text'>
 							<SiLeaflet className='horticulture-icon' />
 							Autumn Thoughts
 						</Link>
