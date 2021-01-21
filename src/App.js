@@ -19,17 +19,13 @@ import Cookbooks from './components/Pages/Store/Cookbooks';
 import Horticulture from './components/Pages/Horticulture';
 import Courses from './components/Pages/Courses';
 import News from './components/Pages/News';
+import Newsletters from './components/Pages/Newsletters';
 import Committees from './components/Pages/Committees';
 import Resources from './components/Pages/Resources';
 import Awards from './components/Pages/Awards';
 import Library from './components/Pages/Library';
 import Photos from './components/Pages/Photos';
 import Contact from './components/Pages/Contact';
-
-
-
-
-
 
 const App = () => {
 	return (
@@ -56,7 +52,7 @@ const App = () => {
 							<Route path='/library' component={Library} />
 							<Route path='/photos' component={Photos} />
 							<Route path='/contact' component={Contact} />
-
+							<Route path='/newsletters' component={Newsletters} />
 						</Switch>
 					</div>
 				</div>

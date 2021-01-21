@@ -1,4 +1,6 @@
 import React from 'react';
+import { GiSpotedFlower } from 'react-icons/gi';
+
 import './style.scss';
 
 const About = () => {
@@ -12,15 +14,22 @@ const About = () => {
 			<div className='about-text'>
 				<h2 className='heading heading-primary'>
 					About Us
-					<div className="underline"></div>
+					<div className='underline'></div>
 				</h2>
 				<p>The Norwood Evening Garden Club is a member of:</p>
-				<ul className='mb-2'>
-					<li className='member-list'>
+				<ul className='list'>
+					<li>
+						<GiSpotedFlower className='list-icon' />
 						The Garden Club Federation of Massachusetts, Inc.
 					</li>
-					<li className='member-list'>New England Region of Garden Clubs</li>
-					<li className='member-list'>National Garden Clubs, Inc.</li>
+					<li>
+						<GiSpotedFlower className='list-icon' />
+						New England Region of Garden Clubs
+					</li>
+					<li>
+						<GiSpotedFlower className='list-icon' />
+						National Garden Clubs, Inc.
+					</li>
 				</ul>
 
 				<p>
@@ -30,7 +39,15 @@ const About = () => {
 					gardeners, and draws its members from Norwood, Walpole, Westwood,
 					Dedham, Medfield, Randolph and Stoughton.
 				</p>
-				<p>For information about the club, contact Mary Ellen Heike</p>
+				<p>
+					For information about the club, contact{' '}
+					<a
+						href='mailto:meheike59@gmail.com?subject=Gardening Club Membership'
+						className='link'
+					>
+						Mary Ellen Heike
+					</a>
+				</p>
 			</div>
 			<div className='about-right'>
 				<div className='about-image img-right'></div>

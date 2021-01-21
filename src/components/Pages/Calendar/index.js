@@ -139,8 +139,13 @@ const Calendar = () => {
 				Westwood, Dedham, Medfield, Stoughton and Randolph.
 			</p>
 			<p>
-				For information about joining the Norwood Evening Garden Club, contact
-				Donna Lane
+				For information about joining the Norwood Evening Garden Club, contact{' '}
+				<a
+					href='mailto:donnamlane@verizon.net?subject=Gardening Club Information'
+					className='link'
+				>
+					Donna Lane
+				</a>
 			</p>
 		</div>
 	);

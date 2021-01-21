@@ -1,10 +1,6 @@
 .about {
 	&-section {
 		display: flex;
-
-		.member-list {
-			list-style-position: inside;
-		}
 	}
 
 	&-left {
@@ -14,6 +10,10 @@
 	&-text {
 		flex: 6;
 		padding: 0 3rem;
+
+		.link:hover {
+			transform: translate(0.3rem, -0.3rem) scale(1.05);
+		}
 	}
 
 	&-right {

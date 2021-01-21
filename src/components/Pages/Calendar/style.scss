@@ -3,7 +3,6 @@
 
 	&-table {
 		width: 100%;
-		font-size: 1.4rem;
 
 		td {
 			padding: 0.5rem;
@@ -13,5 +12,9 @@
 			font-family: 'Pacifico', cursive;
 			font-weight: lighter;
 		}
+	}
+
+	.link:hover {
+		transform: translate(0.3rem, -0.3rem) scale(1.05);
 	}
 }

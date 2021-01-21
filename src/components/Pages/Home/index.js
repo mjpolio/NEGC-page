@@ -1,5 +1,5 @@
 import React from 'react';
-import { GiTwirlyFlower } from 'react-icons/gi';
+import { GiTwirlyFlower, GiSpotedFlower } from 'react-icons/gi';
 
 import './style.scss';
 
@@ -16,12 +16,19 @@ const Home = () => {
 					from Norwood, Walpole, Westwood and surrounding towns for the goals
 					of:
 				</p>
-				<ul className='home-list mb-2'>
-					<li>Learning more about horticulture and floral design</li>
+				<ul className='list'>
 					<li>
+						<GiSpotedFlower className='list-icon' />
+						Learning more about horticulture and floral design
+					</li>
+					<li>
+						<GiSpotedFlower className='list-icon' />
 						Sharing knowledge and expertise with each other and with the public
 					</li>
-					<li>Making our communities more beautiful through civic projects</li>
+					<li>
+						<GiSpotedFlower className='list-icon' />
+						Making our communities more beautiful through civic projects
+					</li>
 				</ul>
 			</div>
 			<p>

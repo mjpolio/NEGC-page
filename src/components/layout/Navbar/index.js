@@ -44,6 +44,11 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li className='navbar-item'>
+						<Link to='/newsletters' className='navbar-links'>
+							Newsletters
+						</Link>
+					</li>
+					<li className='navbar-item'>
 						<Link to='/resources' className='navbar-links'>
 							Resources
 						</Link>
