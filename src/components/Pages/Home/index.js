@@ -1,4 +1,5 @@
 import React from 'react';
+import { GiTwirlyFlower } from 'react-icons/gi';
 
 import './style.scss';
 
@@ -7,7 +8,7 @@ const Home = () => {
 		<div className='home'>
 			<h2 className='heading heading-primary'>
 				Norwood Evening Gardening Club
-				<div className="underline"></div>
+				<div className='underline'></div>
 			</h2>
 			<div>
 				<p>
@@ -15,7 +16,7 @@ const Home = () => {
 					from Norwood, Walpole, Westwood and surrounding towns for the goals
 					of:
 				</p>
-				<ul className='mb-2'>
+				<ul className='home-list mb-2'>
 					<li>Learning more about horticulture and floral design</li>
 					<li>
 						Sharing knowledge and expertise with each other and with the public
@@ -40,6 +41,24 @@ const Home = () => {
 					membership@norwoodeveninggardenclub.com
 				</a>
 			</p>
+
+			<div className='home-pledge'>
+				<GiTwirlyFlower className='home-pledge-icon' />
+				<div className='home-pledge-outer octagon'>
+					<div className='home-pledge-inner octagon'>
+						<div className='home-pledge-text'>
+							<h3 className='heading heading-secondary secondary-text'>
+								Conservation Pledge
+							</h3>
+							<p>
+								I give my pledge as an American to save and faithfully to defend
+								from waste, the natural resources of my country - its air, soils
+								and minerals, its forests, waters and wildlife.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 };

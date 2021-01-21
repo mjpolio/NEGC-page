@@ -25,12 +25,14 @@ const Contact = () => {
 			>
 				Membership - Mary Ellen Heike (membership)
 			</a>
+			<br />
 			<a
 				href='mailto:donnamlane@verizon.net?subject=Gardening Club Information'
 				className='link'
 			>
 				Information - Donna Lane (information)
 			</a>
+			<br />
 			<a
 				href='mailto:sheela.hk.venkatesh@gmail.com?subject=Gardening Club Webmaster'
 				className='link'
