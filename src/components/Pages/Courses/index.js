@@ -8,13 +8,12 @@ const Courses = () => {
 		<>
 			<h2 className='heading heading-primary'>
 				Gardening and Horticultural Courses
-				<div className="underline"></div>
-
+				<div className='underline'></div>
 			</h2>
 			<div className='courses'>
 				<div className='courses-item'>
 					<div className='courses-name'>
-						<h4 className='heading heading-secondary secondary-text'>
+						<h4 className='heading heading-tertiary text-secondary'>
 							Arnold Arboretum
 						</h4>
 					</div>
@@ -32,7 +31,7 @@ const Courses = () => {
 				<div className='line'></div>
 				<div className='courses-item'>
 					<div className='courses-name'>
-						<h4 className='heading heading-secondary secondary-text'>
+						<h4 className='heading heading-tertiary text-secondary'>
 							Garden Club Federation of Massachusetts
 						</h4>
 					</div>
@@ -47,7 +46,7 @@ const Courses = () => {
 				<div className='line'></div>
 				<div className='courses-item'>
 					<div className='courses-name'>
-						<h4 className='heading heading-secondary secondary-text'>
+						<h4 className='heading heading-tertiary text-secondary'>
 							Massachusetts Horticultural Society
 						</h4>
 					</div>
@@ -62,10 +61,10 @@ const Courses = () => {
 				<div className='line'></div>
 				<div className='courses-item'>
 					<div className='courses-name'>
-						<h4 className='heading heading-secondary secondary-text'>
+						<h4 className='heading heading-tertiary text-secondary'>
 							Massachusetts Master Gardener Association, Inc
 						</h4>
-						<h5 className='primary-text'>Master Gardener Program</h5>
+						<h5 className='text-primary'>Master Gardener Program</h5>
 					</div>
 					<div className='courses-info'>
 						<p>617-933-4900</p>
@@ -80,7 +79,7 @@ const Courses = () => {
 				<div className='line'></div>
 				<div className='courses-item'>
 					<div className='courses-name'>
-						<h4 className='heading heading-secondary secondary-text'>
+						<h4 className='heading heading-tertiary text-secondary'>
 							New England Wildflower Society
 						</h4>
 					</div>
@@ -95,10 +94,10 @@ const Courses = () => {
 				<div className='line'></div>
 				<div className='courses-item'>
 					<div className='courses-name'>
-						<h4 className='heading heading-secondary secondary-text'>
+						<h4 className='heading heading-tertiary text-secondary'>
 							Norfolk County Agricultural High School
 						</h4>
-						<h5 className='primary-text'>Adult Education</h5>
+						<h5 className='text-primary'>Adult Education</h5>
 					</div>
 
 					<div className='courses-info'>
@@ -114,7 +113,7 @@ const Courses = () => {
 				<div className='line'></div>
 				<div className='courses-item'>
 					<div className='courses-name'>
-						<h4 className='heading heading-secondary secondary-text'>
+						<h4 className='heading heading-tertiary text-secondary'>
 							Tower Hill Botanic Garden
 						</h4>
 					</div>

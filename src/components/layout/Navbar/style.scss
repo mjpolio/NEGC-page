@@ -8,13 +8,12 @@
 
 	&-item {
 		list-style: none;
+		display: block;
 		margin: 0.5rem 1rem;
-		padding: 0.5rem 1rem;
 		position: relative;
 		z-index: 1;
 
 		&::after {
-			display: block;
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -40,12 +39,15 @@
 	&-links {
 		text-decoration: none;
 		color: $dark-color;
+		display: block;
+		padding: 0.5rem 1rem;
 		cursor: pointer;
 
 		&:hover,
 		&:active,
 		&:focus {
 			text-decoration: none;
+			outline: none;
 		}
 	}
 }

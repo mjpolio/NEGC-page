@@ -14,13 +14,15 @@ const Calendar = () => {
 				' meetings. Guests may register at the door. The guest donation is $5.00
 				per meeting.
 			</p>
-			<h3 className='heading heading-secondary'>Please come at 6:45 p.m.</h3>
-			<h3 className='heading heading-secondary'>
-				Carriage House at the First Baptist Church, 71 Bond Street in Norwood
+			<h3 className='heading heading-tertiary'>
+				Please come at 6:45 p.m. <br /> Carriage House at the First Baptist
+				Church, 71 Bond Street in Norwood
 			</h3>
-			<p className='danger-text mt-3'>
+
+			<p className='text-danger mt-3'>
 				Please Note: Due to COVID all programs are 'Members Only'.
 			</p>
+
 			<table className='calendar-table'>
 				<thead>
 					<tr>
