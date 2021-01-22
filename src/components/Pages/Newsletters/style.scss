@@ -4,12 +4,21 @@
     background-color: $plain-color;
 
     &-item {
-        padding: .4rem;
+        padding: .5rem;
         font-size: 1.8rem;
     }
 
     &-link {
-        list-style: none;
-        
+        transition: all .1s;
+
+        &:link,
+		&:visited {
+			color: darken($dark-green-text, 20%);
+		}
+
+		&:hover,
+		&:active {
+			color: darken($dark-green-text, 30%);
+		}
     }
 }

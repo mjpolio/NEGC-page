@@ -24,9 +24,19 @@
     }
 
     &-link {
+        transition: all .2s;
+
+        &:link,
+        &:visited {
         font-size: 1.75rem;
-        // color: orangered;
-        color: $dark-green-text;
+        color: darken($dark-green-text, 20%);
+        }
+
+        &:hover,
+        &:active {
+            color: darken($dark-green-text, 30%);
+        }
+
     }
 
     &-date {    

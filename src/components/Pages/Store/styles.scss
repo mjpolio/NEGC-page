@@ -10,7 +10,7 @@
 		font-size: 2rem;
 		font-weight: 500;
 		padding: 0.8rem;
-		color: darken($secondary-color, 30%);
+		color: darken($dark-green-text, 20%);
 	}
 
 	&-icon {
@@ -19,15 +19,17 @@
 	}
 
 	.link {
+		transition: all .15s;
+
 		&:link,
 		&:visited {
 			font-size: inherit;
-			color: darken($secondary-color, 30%);
+			color: darken($dark-green-text, 20%);
 		}
 
 		&:hover,
 		&:active {
-			color: darken($secondary-color, 10%);
+			color: darken($dark-green-text, 30%);
 		}
 	}
 }

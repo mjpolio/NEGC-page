@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.scss';
 
 import spring2017 from './src/06 - NEGC SPRING 2017 Newsletter_final2.pdf';
@@ -18,22 +19,22 @@ const Newsletters = () => {
 				<div className='underline'></div>
 			</h2>
 			<div className="newsletters-item">
-				<a href={spring2017} className="newsletters-link">Spring 2017</a>
+				<Link to={{ pathname: spring2017}} target="_blank" className="newsletters-link link">Spring 2017</Link>
 			</div>
 			<div className="newsletters-item">
-				<a href={fall2016} className="newsletters-link">Fall 2016</a>
+				<Link to={{ pathname: fall2016}} target="_blank" className="newsletters-link link">Fall 2016</Link>
 			</div>
 			<div className="newsletters-item">
-				<a href={spring2015} className="newsletters-link">Spring 2015</a>
+				<Link to={{ pathname: spring2015}} target="_blank" className="newsletters-link link">Spring 2015</Link>
 			</div>
 			<div className="newsletters-item">
-				<a href={fall2014} className="newsletters-link">Fall 2014</a>
+				<Link to={{ pathname: fall2014}} target="_blank" className="newsletters-link link">Fall 2014</Link>
 			</div>
 			<div className="newsletters-item">
-				<a href={spring2014} className="newsletters-link">Spring 2014</a>
+				<Link to={{ pathname: spring2014}} target="_blank" className="newsletters-link link">Spring 2014</Link>
 			</div>
 			<div className="newsletters-item">
-				<a href={spring2013} className="newsletters-link">Feb 2013</a>
+				<Link to={{ pathname: spring2013}} target="_blank" className="newsletters-link link">Feb 2013</Link>
 			</div>
 		</div>
 	);
