@@ -1,0 +1,15 @@
+@import '../../../style/abstracts/variables';
+
+.newsletters {
+    background-color: $plain-color;
+
+    &-item {
+        padding: .4rem;
+        font-size: 1.8rem;
+    }
+
+    &-link {
+        list-style: none;
+        
+    }
+}
