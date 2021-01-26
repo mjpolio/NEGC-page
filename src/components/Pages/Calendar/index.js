@@ -1,4 +1,5 @@
 import React from 'react';
+import { calendar } from '../../../data';
 
 import './style.scss';
 
@@ -33,102 +34,16 @@ const Calendar = () => {
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td>9/29/20</td>
-						<td>Debbie Merriam</td>
-						<td>Weeds & Invasives</td>
-						<td>
-							<button className='btn-text'>More Info &rarr;</button>
-						</td>
-					</tr>
-					<tr>
-						<td>10/27/20</td>
-						<td>Joan Buttler</td>
-						<td>The Magic of a Winter Garden</td>
-						<td>
-							<button className='btn-text'>More Info &rarr;</button>
-						</td>
-					</tr>
-					<tr>
-						<td>12/01/20</td>
-						<td>Donna Lane</td>
-						<td>Holiday Workshop</td>
-						<td>
-							<button className='btn-text'>More Info &rarr;</button>
-						</td>
-					</tr>
-					<tr>
-						<td>01/26/21</td>
-						<td>Robert Gegear</td>
-						<td>More than Just the Buzz: Gardening for Biodiversity</td>
-						<td>
-							<button className='btn-text'>More Info &rarr;</button>
-						</td>
-					</tr>
-					<tr>
-						<td>02/23/21</td>
-						<td>Hannah Traggis</td>
-						<td>Container Vegetable Garden</td>
-						<td>
-							<button className='btn-text'>More Info &rarr;</button>
-						</td>
-					</tr>
-					<tr>
-						<td>03/30/21</td>
-						<td>Joann Vieira</td>
-						<td>Trees and Shrubs for New England Gardens</td>
-						<td>
-							<button className='btn-text'>More Info &rarr;</button>
-						</td>
-					</tr>
-					<tr>
-						<td>TBD</td>
-						<td>Art in Bloom</td>
-						<td>Art in Bloom</td>
-						<td>
-							<button className='btn-text'>More Info &rarr;</button>
-						</td>
-					</tr>
-					<tr>
-						<td>04/27/21</td>
-						<td>Jen Kettell</td>
-						<td>Be a Pollinator Wingman</td>
-						<td>
-							<button className='btn-text'>More Info &rarr;</button>
-						</td>
-					</tr>
-					<tr>
-						<td>05/08/21</td>
-						<td>Plant sale</td>
-						<td>Plant Sale</td>
-						<td>
-							<button className='btn-text'>More Info &rarr;</button>
-						</td>
-					</tr>
-					<tr>
-						<td>05/08/21</td>
-						<td>Plant sale</td>
-						<td>Plant Sale</td>
-						<td>
-							<button className='btn-text'>More Info &rarr;</button>
-						</td>
-					</tr>
-					<tr>
-						<td>05/25/21</td>
-						<td>Joe Biagioni</td>
-						<td>Drip Irrigation Workshop</td>
-						<td>
-							<button className='btn-text'>More Info &rarr;</button>
-						</td>
-					</tr>
-					<tr>
-						<td>TBD</td>
-						<td>Annual Meeting</td>
-						<td>Annual Meeting</td>
-						<td>
-							<button className='btn-text'>More Info &rarr;</button>
-						</td>
-					</tr>
+					{calendar.map((item, i) => (
+						<tr key={i}>
+							<td>{item.date}</td>
+							<td>{item.speakerEvent}</td>
+							<td>{item.topic}</td>
+							<td>
+								<button className='btn-text'>More Info &rarr;</button>
+							</td>
+						</tr>
+					))}
 				</tbody>
 			</table>
 			<h3 className='heading heading-secondary'>Norwood Evening Garden Club</h3>

@@ -11,6 +11,14 @@ body {
 	background-color: $secondary-color;
 }
 
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
 .container {
 	width: 80%;
 	margin: 1rem auto;

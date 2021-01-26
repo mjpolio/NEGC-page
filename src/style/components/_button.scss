@@ -3,7 +3,6 @@
 	&:link,
 	&:visited {
 		display: inline-block;
-		text-decoration: none;
 		font-size: 1.5rem;
 		padding: 0.64rem 2.1rem;
 		border: none;
@@ -26,7 +25,7 @@
 	&:focus {
 		outline: none;
 		transform: translateY(-0.1rem);
-		box-shadow: 0 0rem 1rem rgba($dark-color, 0.2);
+		box-shadow: 0 0 1rem rgba($dark-color, 0.2);
 	}
 
 	&-text {
@@ -37,7 +36,6 @@
 		cursor: pointer;
 		padding: 0.3rem 1rem;
 		display: inline-block;
-		text-decoration: none;
 		transition: all 0.2s ease-out;
 
 		&:hover {

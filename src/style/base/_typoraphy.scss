@@ -45,7 +45,7 @@ p {
 	}
 
 	&-secondary {
-		color: darken($secondary-color, 25%);
+		color: darken($secondary-color, 25%) !important;
 	}
 
 	&-tertiary {
