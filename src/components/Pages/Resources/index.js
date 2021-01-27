@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { GiSpade } from 'react-icons/gi';
 import { IoIosHelpCircleOutline } from 'react-icons/io';
@@ -9,8 +9,26 @@ import { resources } from '../../../data';
 import './style.scss';
 
 const Resources = () => {
+	const [toggleButton, setToggleButton] = useState(false);
+
+	window.onscroll = function () {
+		if (window.pageYOffset > 700) setToggleButton(true);
+		else setToggleButton(false);
+	};
+
 	return (
 		<div className='resources'>
+			{toggleButton && (
+				<div className='text-right btn-up'>
+					<button
+						type='button'
+						className='btn'
+						onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+					>
+						Go up
+					</button>
+				</div>
+			)}
 			<h2 className='heading heading-primary'>
 				Horticultural Resources
 				<div className='underline'></div>
@@ -101,17 +119,6 @@ const Resources = () => {
 									</div>
 								</React.Fragment>
 							))}
-							<div className='text-right'>
-								<button
-									type='button'
-									className='btn'
-									onClick={() =>
-										window.scrollTo({ top: 0, behavior: 'smooth' })
-									}
-								>
-									Go up
-								</button>
-							</div>
 						</section>
 					)
 			)}

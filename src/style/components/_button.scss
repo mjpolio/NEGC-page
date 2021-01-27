@@ -52,4 +52,14 @@
 			transform: translateY(0);
 		}
 	}
+
+	&-up {
+		position: fixed;
+		right: 2.5rem;
+		bottom: 2.5rem;
+
+		.btn {
+			opacity: 1;
+		}
+	}
 }

@@ -11,7 +11,7 @@ const Store = () => {
 				Our Store
 				<div className='underline'></div>
 			</h2>
-			<div className='store-list'>
+			<div className='list'>
 				<li className='store-item'>
 					<Link to='/cookbooks' className='link'>
 						<FaBook className='store-icon' />
@@ -19,12 +19,16 @@ const Store = () => {
 					</Link>
 				</li>
 				<li className='store-item'>
-					<GiLargeDress className='store-icon' />
-					Aprons
+					<div className='link'>
+						<GiLargeDress className='store-icon' />
+						Aprons
+					</div>
 				</li>
 				<li className='store-item'>
-					<GiGloves className='store-icon' />
-					Gloves
+					<div className='link'>
+						<GiGloves className='store-icon' />
+						Gloves
+					</div>
 				</li>
 			</div>
 		</div>

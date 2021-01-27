@@ -1,10 +1,6 @@
 @import '../../../style/abstracts/variables';
 
 .store {
-	&-list {
-		margin-top: 5rem;
-	}
-
 	&-item {
 		list-style: none;
 		font-size: 2rem;
@@ -18,18 +14,23 @@
 		margin-bottom: -0.2rem;
 	}
 
-	.link {
-		transition: all .15s;
+	.list {
+		width: max-content;
+		margin: 6rem auto;
+	}
 
+	.link {
+		&,
 		&:link,
 		&:visited {
+			color: darken($secondary-color, 35%);
+			transition: all 0.2s ease-out;
 			font-size: inherit;
-			color: darken($dark-green-text, 20%);
 		}
 
 		&:hover,
 		&:active {
-			color: darken($dark-green-text, 30%);
+			color: darken($secondary-color, 25%);
 		}
 	}
 }

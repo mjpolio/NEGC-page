@@ -1,24 +1,31 @@
 @import '../../../style/abstracts/variables';
 
 .newsletters {
-    background-color: $plain-color;
+	&-item {
+		padding: 1rem;
+		font-size: 1.8rem;
 
-    &-item {
-        padding: .5rem;
-        font-size: 1.8rem;
-    }
-
-    &-link {
-        transition: all .1s;
-
-        &:link,
-		&:visited {
-			color: darken($dark-green-text, 20%);
+		&-icon {
+			margin-bottom: -0.2rem;
+			margin-right: 1rem;
+			color: darken($secondary-color, 35%);
 		}
+	}
 
-		&:hover,
-		&:active {
-			color: darken($dark-green-text, 30%);
+	.list {
+		width: max-content;
+		margin: 0 auto;
+
+		.link {
+			&:link,
+			&:visited {
+				color: darken($secondary-color, 35%);
+			}
+
+			&:hover,
+			&:active {
+				color: darken($secondary-color, 25%);
+			}
 		}
-    }
+	}
 }

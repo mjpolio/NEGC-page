@@ -1,9 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { library } from '../../../data';
 
 const Library = () => {
+	const [toggleButton, setToggleButton] = useState(false);
+
+	window.onscroll = function () {
+		if (window.pageYOffset > 700) setToggleButton(true);
+		else setToggleButton(false);
+	};
+
 	return (
 		<div className='library'>
+			{toggleButton && (
+				<div className='text-right btn-up'>
+					<button
+						type='button'
+						className='btn'
+						onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+					>
+						Go up
+					</button>
+				</div>
+			)}
 			<h2 className='heading heading-primary'>
 				Library
 				<div className='underline'></div>
@@ -34,15 +52,6 @@ const Library = () => {
 					))}
 				</tbody>
 			</table>
-			<div className='text-right m-1'>
-				<button
-					type='button'
-					className='btn'
-					onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-				>
-					Go up
-				</button>
-			</div>
 		</div>
 	);
 };

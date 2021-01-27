@@ -24,13 +24,13 @@
 			&:link,
 			&:visited {
 				font-size: 2rem;
-				color: darken($dark-green-text, 20%);
+				color: darken($secondary-color, 35%);
 				padding: 0.7rem 1rem;
 			}
 
 			&:hover,
 			&:active {
-				color: darken($dark-green-text, 30%);
+				color: darken($secondary-color, 25%);
 				border-radius: 5rem;
 			}
 		}
