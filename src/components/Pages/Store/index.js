@@ -13,19 +13,19 @@ const Store = () => {
 			</h2>
 			<div className='list'>
 				<li className='store-item'>
-					<Link to='/cookbooks' className='link'>
+					<Link to='/cookbooks' className='link link-green'>
 						<FaBook className='store-icon' />
 						Cookbooks
 					</Link>
 				</li>
 				<li className='store-item'>
-					<div className='link'>
+					<div className='link link-green'>
 						<GiLargeDress className='store-icon' />
 						Aprons
 					</div>
 				</li>
 				<li className='store-item'>
-					<div className='link'>
+					<div className='link link-green'>
 						<GiGloves className='store-icon' />
 						Gloves
 					</div>

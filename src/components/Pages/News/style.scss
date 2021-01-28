@@ -1,46 +1,37 @@
 @import '../../../style/abstracts/variables';
 
 .news {
-    &-card {
-        width: 50%;
-        background-color: $plain-color;
-        margin: 0 auto;
-        padding: .4rem;
+	&-card {
+		width: 50%;
+		background-color: $plain-color;
+		margin: 0 auto;
+		padding: 0.4rem;
+	}
 
-    }
+	&-image {
+		width: 78%;
+		height: 78%;
+		margin: 0.5rem auto 0;
+		padding: 0.1rem;
+	}
 
-    &-image {
-        width: 78%;
-        height: 78%;
-        margin: .5rem auto 0;
-        padding: .1rem;
-    }
+	&-info {
+		margin-bottom: 1.5rem;
+		padding-bottom: 1.5rem;
+		color: $dark-color;
+		font-weight: 500;
+	}
 
-    &-info {
-        margin-bottom: 1.5rem;
-        padding-bottom: 1.5rem;
-        color: $dark-color;
-        font-weight: 500;
-    }
+	&-date {
+		font-style: italic;
+		font-size: 1.4rem;
+	}
 
-    &-link {
-        transition: all .2s;
+	.link {
+		font-size: 1.8rem;
 
-        &:link,
-        &:visited {
-        font-size: 1.75rem;
-        color: darken($dark-green-text, 20%);
-        }
-
-        &:hover,
-        &:active {
-            color: darken($dark-green-text, 30%);
-        }
-
-    }
-
-    &-date {    
-        font-style: italic;
-        font-size: 1.4rem;
-    }
+		&:hover {
+			transform: none;
+		}
+	}
 }

@@ -2,27 +2,26 @@ import React from 'react';
 import './styles.scss';
 
 const Cookbooks = () => {
-    return (
-        <div>
-            <h2 className='heading heading-primary'>
+	return (
+		<>
+			<h2 className='heading heading-primary'>
 				Cookbooks
-				<div className="underline"></div>
-
+				<div className='underline'></div>
 			</h2>
-            <div className="cookbook-item">
-                <div className="cookbook-item-title">NEGC Award-Winning Cookbook</div>
-                <div className="cookbook-item-img"></div>
-                <div className="cookbook-item-description">
-                    <div className="cookbook-item-description-heading">
-                        The Norwood Evening Garden Club Cookbook
-                    </div>
-                    <div className="cookbook-item-description-price">
-                        $10
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
-}
+			<div className='cookbook-item'>
+				<h3 className='heading-secondary heading-underline text-primary'>
+					The Norwood Evening Garden Club Cookbook
+				</h3>
+				<h5 className='heading-tertiary text-dark'>
+					NEGC Award-Winning Cookbook
+				</h5>
+				<div className='cookbook-item-img'></div>
+				<div className='cookbook-item-description'>
+					<p className='heading-primary text-secondary'>$10</p>
+				</div>
+			</div>
+		</>
+	);
+};
 
 export default Cookbooks;

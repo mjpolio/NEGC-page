@@ -15,7 +15,11 @@ const Newsletters = () => {
 				{newsletter.map((item, i) => (
 					<li className='newsletters-item' key={i}>
 						<ImNewspaper className='newsletters-item-icon' />
-						<Link to={{ pathname: item.pdf }} target='_blank' className='link'>
+						<Link
+							to={{ pathname: item.pdf }}
+							target='_blank'
+							className='link link-green'
+						>
 							{item.name}
 						</Link>
 					</li>

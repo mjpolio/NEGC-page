@@ -15,17 +15,5 @@
 	.list {
 		width: max-content;
 		margin: 0 auto;
-
-		.link {
-			&:link,
-			&:visited {
-				color: darken($secondary-color, 35%);
-			}
-
-			&:hover,
-			&:active {
-				color: darken($secondary-color, 25%);
-			}
-		}
 	}
 }

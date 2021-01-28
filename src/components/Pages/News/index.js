@@ -36,7 +36,7 @@ const News = () => {
 					<div className='news-info'>
 						<a
 							href={item.pdf}
-							className='news-link'
+							className='link link-green'
 							target='_blank'
 							rel='noreferrer noopener'
 						>

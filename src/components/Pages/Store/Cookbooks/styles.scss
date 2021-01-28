@@ -1,44 +1,18 @@
 @import '../../../../style/abstracts/variables';
 
-
 .cookbook-item {
-    &-title {
-        font-size: 1.9rem;
-        padding: 1rem;
-        margin-bottom: 2rem;
-        text-decoration: underline;
-        line-height: 3.6rem;
-        font-weight: bold;
-        color: $dark-color-green;
-        
-    }
-    &-img {
-        background-image: url(../../../../img/Cookbook3sm.jpg);
-        background-size: 100%;
-        background-position: center;
-        width: 38rem;
-        height: 50rem;
-        margin: 0 auto;
-        box-shadow: 1rem 2rem 2rem rgba(0,0,0,.3);
-        border-radius: 3px;
+	&-img {
+		background-image: url(../../../../img/Cookbook3sm.jpg);
+		background-size: 100%;
+		background-position: center;
+		width: 38rem;
+		height: 50rem;
+		margin: 4rem auto;
+		box-shadow: 1rem 2rem 2rem rgba(0, 0, 0, 0.3);
+		border-radius: 3px;
+	}
 
-    }
-
-    &-description {
-        margin: 4rem 0 2rem;
-        font-weight: bold;
-        color: $dark-color-green;
-
-
-        &-heading {
-            font-size: 1.8rem;
-        }
-
-        &-price {
-            font-size: 1.6rem
-        }
-    }
-
-    
-
+	&-description {
+		margin: 4rem 0 2rem;
+	}
 }

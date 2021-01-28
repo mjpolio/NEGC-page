@@ -1,4 +1,5 @@
 .link {
+	&,
 	&:link,
 	&:visited {
 		font-weight: 500;
@@ -16,5 +17,18 @@
 	&:active,
 	&:focus {
 		outline: none;
+	}
+
+	&-green {
+		&,
+		&:link,
+		&:visited {
+			color: darken($secondary-color, 35%) !important;
+		}
+
+		&:hover,
+		&:active {
+			color: darken($secondary-color, 55%) !important;
+		}
 	}
 }

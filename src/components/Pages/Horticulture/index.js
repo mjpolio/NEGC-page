@@ -19,7 +19,7 @@ const Horticulture = () => {
 							<Link
 								to={{ pathname: item.pdf }}
 								target='_blank'
-								className='btn-text'
+								className='btn-text link-green'
 							>
 								<SiLeaflet className='horticulture-icon' />
 								{item.name}
