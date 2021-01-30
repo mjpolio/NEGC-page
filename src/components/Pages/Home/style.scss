@@ -69,6 +69,16 @@
 			);
 		}
 	}
+	
+	&-list-container {
+		width: 100%;
+		display: flex;
+	}
+
+	&-list {
+		text-align: center;
+		margin: 8px auto 20px;
+	}
 
 	.link:hover {
 		transform: translate(1rem) scale(1.05);

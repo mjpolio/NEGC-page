@@ -19,21 +19,22 @@ const About = () => {
 				<p className='text-left'>
 					The Norwood Evening Garden Club is a member of:
 				</p>
-				<ul className='list'>
-					<li>
-						<GiSpotedFlower className='list-icon' />
-						The Garden Club Federation of Massachusetts, Inc.
-					</li>
-					<li>
-						<GiSpotedFlower className='list-icon' />
-						New England Region of Garden Clubs
-					</li>
-					<li>
-						<GiSpotedFlower className='list-icon' />
-						National Garden Clubs, Inc.
-					</li>
-				</ul>
-
+				<div className="about-list-container">
+					<ul className='about-list'>
+						<li>
+							<GiSpotedFlower className='list-icon' />
+							The Garden Club Federation of Massachusetts, Inc.
+						</li>
+						<li>
+							<GiSpotedFlower className='list-icon' />
+							New England Region of Garden Clubs
+						</li>
+						<li>
+							<GiSpotedFlower className='list-icon' />
+							National Garden Clubs, Inc.
+						</li>
+					</ul>
+				</div>
 				<p>
 					Members of the Norwood Evening Garden Club have been providing
 					education and public beautification in Norwood and its surrounding

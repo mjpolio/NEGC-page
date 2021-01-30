@@ -16,20 +16,22 @@ const Home = () => {
 					from Norwood, Walpole, Westwood and surrounding towns for the goals
 					of:
 				</p>
-				<ul className='list'>
-					<li>
-						<GiSpotedFlower className='list-icon' />
-						Learning more about horticulture and floral design
-					</li>
-					<li>
-						<GiSpotedFlower className='list-icon' />
-						Sharing knowledge and expertise with each other and with the public
-					</li>
-					<li>
-						<GiSpotedFlower className='list-icon' />
-						Making our communities more beautiful through civic projects
-					</li>
-				</ul>
+				<div className="home-list-container">
+					<ul className='home-list'>
+						<li>
+							<GiSpotedFlower className='list-icon' />
+							Learning more about horticulture and floral design
+						</li>
+						<li>
+							<GiSpotedFlower className='list-icon' />
+							Sharing knowledge and expertise with each other and with the public
+						</li>
+						<li>
+							<GiSpotedFlower className='list-icon' />
+							Making our communities more beautiful through civic projects
+						</li>
+					</ul>
+				</div>
 			</div>
 			<p>
 				The public is cordially invited to attend any of our meetings held at
