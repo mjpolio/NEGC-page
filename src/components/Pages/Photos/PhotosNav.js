@@ -1,25 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import { FaPlusCircle, FaMinusCircle } from 'react-icons/fa';
-
+import React from 'react';
 
 const PhotosNav = (props) => {
-  const [activeId, setActiveId] = useState(null);
-
-  const setActiveItem = (e) => {
-    props.onSelect(e.target.id);
-    console.log(e);
-    e.target.className += ' active';
-  }
-
-  const renderedTitles = props.images.map((gallery) => {
-    return <li className="photos-nav-item" id={gallery.id} onClick={setActiveItem}>{gallery.title}</li>
-  })
-
   return (
     <div className="photos-nav">
       <h2 className="photos-nav-header">Browse by Event:</h2>
       <ul className="photos-nav-list">
-        {renderedTitles}
+        {props.images.map((gallery) => {
+          return (
+            <>
+              <li className="photos-nav-item" id={gallery.id} onClick={e => props.onSelect(e.target.id)}>{gallery.title}</li>
+              <i class="fas fa-leaf photos-nav-icon "></i>
+            </>
+          )}
+        )}
       </ul>
     </div>
   )
