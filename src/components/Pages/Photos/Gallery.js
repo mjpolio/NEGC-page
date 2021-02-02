@@ -1,9 +1,13 @@
 import React from 'react';
+import { SRLWrapper } from 'simple-react-lightbox';
+
 
 const Gallery = ({id, title, photos}) => {
     const imageList = photos.map((photo) => {
         return (
-			<img src={photo} alt="garden" className="photos-section-item" />
+            <a href={photo}>
+			        <img src={photo} alt="garden" className="photos-section-item" />
+            </a>
         )
     })
 
@@ -13,9 +17,11 @@ const Gallery = ({id, title, photos}) => {
               {title}
 			    <div className='underline'></div>
             </div>
-           <div className="photos-section-gallery">
-              {imageList}
-            </div>
+            <SRLWrapper>
+                <div className="photos-section-gallery">
+                {imageList}
+                </div>
+            </SRLWrapper>
         </div>
       )
 }

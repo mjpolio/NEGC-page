@@ -1,5 +1,6 @@
 .photos {
     margin: 0 auto;
+    position: relative;
 
     &-container {
         width: 85%;
@@ -89,5 +90,42 @@
                 opacity: .92;
             }
         }
+    }
+}
+
+.modal {
+    // width: 100vh;
+    // height: 100vh;
+    // background-color: red;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // z-index: 99;
+
+    background: rgba(0,0,0,.9);
+	position: fixed;
+    top: 0;
+    left: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+
+    &-item {
+        width: 400px;
+        height: 400px;
+        background-color: #fff;
+        margin: auto;
+    }
+
+    &-image {
+        
+    }
+
+    &-close {
+        
+    }
+
+    &-text {
+        
     }
 }
