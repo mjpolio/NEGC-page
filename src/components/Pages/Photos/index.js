@@ -3,7 +3,6 @@ import './style.scss';
 import { images } from './images';
 import Gallery from './Gallery';
 import PhotosNav from './PhotosNav';
-import ModalView from './ModalView';
 
 const Photos = () => {
 	const [img, setImg] = useState(images);
@@ -24,7 +23,6 @@ const Photos = () => {
 			<div className="photos-container">
 				{renderedGallery}
 			</div>
-			<ModalView />
 		</div>
 	);
 };

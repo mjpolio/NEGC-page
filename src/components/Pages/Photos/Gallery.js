@@ -11,17 +11,24 @@ const Gallery = ({id, title, photos}) => {
         )
     })
 
+    const options = {
+      thumbnailsGap: "100px 100px",
+      showThumbnails: "false"
+
+    }
+
     return (
         <div>
             <div className="heading heading-secondary photos-section-title">
               {title}
 			    <div className='underline'></div>
             </div>
-            <SRLWrapper>
+            
                 <div className="photos-section-gallery">
+                <SRLWrapper>
                 {imageList}
+                </SRLWrapper>
                 </div>
-            </SRLWrapper>
         </div>
       )
 }
