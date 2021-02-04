@@ -8,7 +8,7 @@ const Store = () => {
 	return (
 		<div className='store'>
 			<h2 className='heading heading-primary'>
-				Ouur Store
+				Ouurr Store
 				<div className='underline'></div>
 			</h2>
 			<div className='list'>
