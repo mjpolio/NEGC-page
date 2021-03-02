@@ -5,17 +5,11 @@ import { SRLWrapper } from 'simple-react-lightbox';
 const Gallery = ({id, title, photos}) => {
     const imageList = photos.map((photo) => {
         return (
-            <a href={photo}>
-			        <img src={photo} alt="garden" className="photos-section-item" />
+            <a href={photo} key={id}>
+			        <img src={photo} alt={title} className="photos-section-item" />
             </a>
         )
     })
-
-    const options = {
-      thumbnailsGap: "100px 100px",
-      showThumbnails: "false"
-
-    }
 
     return (
         <div>

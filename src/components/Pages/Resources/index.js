@@ -25,6 +25,7 @@ const Resources = () => {
 						className='btn'
 						onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
 					>
+						<i className="fas fa-arrow-up btn-up-icon"></i>
 						Go up
 					</button>
 				</div>
@@ -33,46 +34,62 @@ const Resources = () => {
 				Horticultural Resources
 				<div className='underline'></div>
 			</h2>
-			<ul className='resources-list'>
-				<li className='resources-list-item'>
-					<GiSpade className='resources-list-icon' />
-					<Link
-						className='resources-list-link'
-						to={{
-							pathname:
-								'https://ag.umass.edu/services/soil-plant-nutrient-testing-laboratory',
-						}}
-						target='_blank'
-					>
-						Soil Testing
-					</Link>
-				</li>
-				<li className='resources-list-item'>
-					<IoIosHelpCircleOutline className='resources-list-icon' />
-					<Link
-						className='resources-list-link'
-						to={{
-							pathname: 'http://massmastergardeners.org/what-i-do/',
-						}}
-						target='_blank'
-					>
-						Horticulture Helpline
-					</Link>
-				</li>
-				<li className='resources-list-item'>
-					<AiOutlinePhone className='resources-list-icon' />
-					<div className='resources-list-link'>617-933-4929</div>
-				</li>
-				<li className='resources-list-item'>
-					<HiOutlineMail className='resources-list-icon' />
-					<a
-						className='resources-list-link'
-						href='mailto:email hort_line@masshort.org'
-					>
-						email hort_line@masshort.org
-					</a>
-				</li>
-			</ul>
+			<section className='resources-list-topbox'>
+					<div className="resources-list-topbox-section">
+						<div className="resources-list-item">
+							<div className='resources-list-topbox-section-title  heading heading-secondary'>
+								<Link
+
+									className='resources-list-link'
+									to={{
+										pathname: 'http://massmastergardeners.org/what-i-do/',
+									}}
+									target='_blank'
+								>
+								<IoIosHelpCircleOutline className='resources-list-icon' />
+										
+									Horticulture Helpline
+								</Link>
+							</div>
+							<div className="resources-list-topbox-section-description">
+								<div>
+									<AiOutlinePhone className='resources-list-icon' />
+									<div className='resources-list-link'>617-933-4929</div>
+								</div>
+								<div>
+									<HiOutlineMail className='resources-list-icon' />
+										<a
+											className='resources-list-link'
+											href='mailto:email hort_line@masshort.org'
+										>
+											hort_line@masshort.org
+										</a>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<div className="resources-list-topbox-section">
+						<div className='resources-list-item'>
+							<div className="resources-list-topbox-section-title heading heading-secondary">
+							<GiSpade className='resources-list-icon' />
+							<Link
+								className='resources-list-link'
+								to={{
+									pathname:
+										'https://ag.umass.edu/services/soil-plant-nutrient-testing-laboratory',
+								}}
+								target='_blank'
+							>
+								Soil Testing
+							</Link>
+							</div>
+							<div className="resources-list-topbox-section-description">
+								<p className="resources-list-topbox-section-description">UMASS Soil and Plant Nutrient Testing Laboratory</p>
+							</div>	
+
+						</div>
+					</div>
+			</section>
 			{resources.map(
 				(letter, i) =>
 					letter.resources.length !== 0 && (

@@ -27,10 +27,10 @@ const Committees = () => {
 				Committees
 				<div className='underline'></div>
 			</h2>
-
+			
 			<div className='committees-info'>
 				{committees.map((item, i) => (
-					<React.Fragment key={i}>
+					<React.Fragment key={i} id={item.name}>
 						<h3 className='heading heading-secondary heading-underline text-secondary'>
 							{item.name}
 						</h3>

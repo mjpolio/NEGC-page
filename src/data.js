@@ -193,7 +193,7 @@ export const resources = [
 				link: 'https://ag.umass.edu/',
 			},
 			{
-				name: 'Massachusetts Dept. of Ag Resources',
+				name: 'Massachusetts Department of Ag Resources',
 				link:
 					'https://www.mass.gov/orgs/massachusetts-department-of-agricultural-resources',
 			},
@@ -210,7 +210,7 @@ export const resources = [
 				link: 'http://massmastergardeners.org/',
 			},
 			{
-				name: 'Massachusetts -Invasive Plant list',
+				name: 'Massachusetts - Invasive Plant List',
 				link: 'https://www.mass.gov/service-details/invasive-plants',
 			},
 			{
@@ -370,7 +370,7 @@ export const resources = [
 				link: 'https://usna.usda.gov/',
 			},
 			{
-				name: 'US Dept. of Agriculture',
+				name: 'US Department of Agriculture',
 				link: 'https://www.usda.gov/',
 			},
 		],
@@ -544,7 +544,7 @@ export const executives = [
 export const library = [
 	{
 		category: 'Botany',
-		title: 'Plants,man and life',
+		title: 'Plants, Man, and Life',
 		author: 'Anderson, Edgar',
 		year: '1952',
 		publisher: '',
@@ -558,7 +558,7 @@ export const library = [
 	},
 	{
 		category: 'Container Gardening',
-		title: 'Container gardening through the year',
+		title: 'Container Gardening Through the Year',
 		author: 'Hillier, Malcolm',
 		year: 1998,
 		publisher: '',
@@ -587,14 +587,14 @@ export const library = [
 	{
 		category: 'Flower Gardening',
 		title:
-			'60-Minute Flower Garden Have a yard full of dazzling flowers in one hour a week',
+			'60-Minute Flower Garden: Have a Yard Full of Dazzling Flowers in One Hour a Week',
 		author: 'Ball, Jeff and Cresson, Charles',
 		year: 1978,
 		publisher: '',
 	},
 	{
 		category: 'Flower Gardening',
-		title: 'Cutting Garden Growing and Arranging Garden Flowers',
+		title: 'The Cutting Garden: Growing and Arranging Garden Flowers',
 		author: 'Raven, Sarah',
 		year: 1996,
 		publisher: "Reader's Digest",
@@ -609,21 +609,14 @@ export const library = [
 	{
 		category: 'Flower Gardening',
 		title:
-			'Rodale’s Flower Garden Problem Solver Annuals, Perennials, Bulbs, and Roses',
+			'Rodale’s Flower Garden Problem Solver: Annuals, Perennials, Bulbs, and Roses',
 		author: 'Ball, Jeff and Liz',
 		year: 1990,
 		publisher: 'Rodale',
 	},
 	{
 		category: 'Flower Gardening',
-		title: 'The Perennial Garden Color Harmonies through the Seasons',
-		author: 'Cox, Jeff and Marilyn',
-		year: 1985,
-		publisher: '',
-	},
-	{
-		category: 'Flower Gardening',
-		title: 'The Perennial Garden Color Harmonies through the Seasons',
+		title: 'The Perennial Garden: Color Harmonies through the Seasons',
 		author: 'Cox, Jeff and Marilyn',
 		year: 1985,
 		publisher: '',
@@ -645,7 +638,7 @@ export const library = [
 	{
 		category: 'General',
 		title:
-			'Cold Climate Gardening How to select and grow the best vegetables and ornamental plants for the North',
+			'Cold Climate Gardening: How to Select and Grow the Best Vegetables and Ornamental Plants for the North',
 		author: 'Briccetti, Rebecca Atwater',
 		year: 2000,
 		publisher: '',
@@ -666,7 +659,7 @@ export const library = [
 	},
 	{
 		category: 'General',
-		title: 'Truth about Organic Gardening: Benefits, Drawbacks',
+		title: 'Truth about Organic Gardening: Benefits, Drawbacks, and the Bottom Line',
 		author: 'Gillman, Jeff',
 		year: 2008,
 		publisher: '',
@@ -694,7 +687,7 @@ export const library = [
 	},
 	{
 		category: 'Houseplants',
-		title: '200 House Plants Anyone can Grow',
+		title: '200 House Plants Anyone Can Grow',
 		author: 'Gilbert, Richard',
 		year: 1988,
 		publisher: '',
@@ -709,7 +702,7 @@ export const library = [
 	{
 		category: 'Landscaping',
 		title:
-			'All-Seasons Garden How to create color and interest throughout the year',
+			'The All-Seasons Garden: How to Create Color and Interest Throughout the Year',
 		author: 'Kelly, John',
 		year: 1987,
 		publisher: '',
@@ -724,7 +717,7 @@ export const library = [
 	{
 		category: 'Landscaping',
 		title:
-			'Complete Guide to Using Color in your Garden How to Combine Perennials, Annuals, Trees, and Shrubs for a More Beautiful Landscape',
+			'The Complete Guide to Using Color in your Garden: How to Combine Perennials, Annuals, Trees, and Shrubs for a More Beautiful Landscape',
 		author: 'Squire, David',
 		year: 1991,
 		publisher: 'Rodale',
@@ -732,7 +725,7 @@ export const library = [
 	{
 		category: 'Landscaping',
 		title:
-			'Gardening with the New Small Plants The Complete Guide to Growing Dwarf and Miniature Shrubs, Flowers, Trees, and Vegetables',
+			'Gardening with the New Small Plants: The Complete Guide to Growing Dwarf and Miniature Shrubs, Flowers, Trees, and Vegetables',
 		author: 'Allen, Oliver E',
 		year: 1987,
 		publisher: '',
@@ -775,14 +768,14 @@ export const library = [
 	{
 		category: 'Reference',
 		title:
-			'Organic Plant Protection A Comprehensive Reference on Controlling Insects and Diseases in the Garden, Orchard, and Yard – Without Chemicals',
+			'Organic Plant Protection: A Comprehensive Reference on Controlling Insects and Diseases in the Garden, Orchard, and Yard – Without Chemicals',
 		author: 'Yepsen, Roger B. Jr., ed.',
 		year: 1976,
 		publisher: 'Rodale',
 	},
 	{
 		category: 'Roses',
-		title: 'Rose Growing Simplified The step-by-step guide perfect for anyone',
+		title: 'Rose Growing Simplified: The step-by-step Guide Perfect for Anyone',
 		author: 'Lapierre, Armand J',
 		year: 1993,
 		publisher: '',
@@ -804,7 +797,7 @@ export const library = [
 	{
 		category: 'Roses',
 		title:
-			'Secrets to Great Soil A Grower’s Guide to Composting, Mulching, and Creating Healthy, Fertile Soil for your Garden and Lawn',
+			'Secrets to Great Soil: A Grower’s Guide to Composting, Mulching, and Creating Healthy, Fertile Soil for Your Garden and Lawn',
 		author: 'Stell, Elizabeth P.',
 		year: 1998,
 		publisher: '',

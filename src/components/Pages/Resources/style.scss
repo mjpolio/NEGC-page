@@ -6,12 +6,50 @@
 		width: max-content;
 		margin: 0 auto 4rem;
 
+		&-topbox {
+			display: flex;
+			width: 40vw;
+			margin: 0 auto 1rem;
+			padding: .1rem;
+			justify-content: center;
+			align-items: center;
+			column-count: 2;
+			column-gap: .5rem;
+
+
+			&-section {
+				border: 1px solid black;
+				height: 16vh;
+				background-color: darken($plain-color, 8%);
+				width: 40%;
+				display: flex;
+				box-shadow: 1px 3px 4px rgba(0,0,0,.4);
+				margin: 2rem;
+
+				&-title {
+					font-size: 1.9rem;
+					margin: .7rem auto;
+				}
+
+				&-description {
+					font-size: 1.4rem;
+					font-style: italic;
+				}
+			}
+		}
+
 		&-item {
 			padding: 0.5rem;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+
 		}
 
 		&-link {
 			display: inline-block;
+			text-decoration: none;
 			color: $dark-color;
 			font-weight: 500;
 
@@ -24,7 +62,8 @@
 			color: $primary-color;
 			font-size: 2.3rem;
 			margin-bottom: -0.5rem;
-			margin-right: 1.5rem;
+			margin-right: 1rem;
+			display: inline-block;
 		}
 	}
 

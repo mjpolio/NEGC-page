@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {Iframe} from 'react';
 
 import lily from '../../../img/single-lily.png';
 import './style.scss';
 
-const Membership = () => {
+const Membership = (props) => {
 	return (
 		<div className='membership'>
 			<h2 className='heading heading-primary'>
