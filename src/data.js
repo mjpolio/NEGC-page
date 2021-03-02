@@ -469,12 +469,6 @@ export const calendar = [
 		description: '',
 	},
 	{
-		date: '05/08/21',
-		speakerEvent: 'Plant sale',
-		topic: 'Plant Sale',
-		description: '',
-	},
-	{
 		date: '05/25/21',
 		speakerEvent: 'Joe Biagioni',
 		topic: 'Drip Irrigation Workshop',
